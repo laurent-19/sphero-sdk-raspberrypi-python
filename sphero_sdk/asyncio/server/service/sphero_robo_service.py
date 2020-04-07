@@ -40,7 +40,7 @@ class SpheroRoboService(RoboServiceBase):
                 None,
                 Parser,
                 Handler,
-                '/dev/ttyS0'
+                '/dev/ttyTHS1'
         )
         port_id = self.ports.register(port)
         port.port_id = port_id
