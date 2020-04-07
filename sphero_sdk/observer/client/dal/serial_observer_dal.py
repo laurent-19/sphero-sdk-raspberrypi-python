@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 class SerialObserverDal(SpheroDalBase):
     __slots__ = ['_port']
 
-    def __init__(self, port_id='/dev/ttyS0', baud=115200):
+    def __init__(self, port_id='/dev/ttyTHS1', baud=115200):
         SpheroDalBase.__init__(self)
         dispatcher = EventDispatcher()
         parser = ObserverParser(dispatcher)
