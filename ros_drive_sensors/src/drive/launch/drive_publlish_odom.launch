@@ -1,0 +1,4 @@
+<launch>
+    <!-- Launch drive_and_publish.py -->
+    <node name="drive_publish_node" pkg="drive" type="drive_and_publish.py" output="screen"/>
+</launch>

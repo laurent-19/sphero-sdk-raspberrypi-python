@@ -1,0 +1,7 @@
+<launch>
+    <!-- Launch drive_with_heading.py -->
+    <node name="drive_with_heading_node" pkg="drive" type="drive_with_heading.py" output="screen"/>
+
+    <!-- Launch twist_publisher.py -->
+    <node name="twist_publisher_node" pkg="drive" type="twist_publisher.py" output="screen"/>
+</launch>

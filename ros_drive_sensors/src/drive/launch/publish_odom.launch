@@ -1,0 +1,4 @@
+<launch>
+    <!-- Launch publish_odom.py -->
+    <node name="publish_odom_node" pkg="drive" type="publish_odom.py" output="screen"/>
+</launch>
